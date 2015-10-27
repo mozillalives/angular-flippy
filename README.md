@@ -27,3 +27,20 @@ Flippy Directive Parameters
 * `ng-mouseleave`: toggles the flipping upon mouse leave
 * `flip-duration`: the time it takes to flip in ms
 * `timing-function`: timing functions (see https://developer.mozilla.org/de/docs/Web/CSS/transition-timing-function)
+
+Installing
+-----------
+
+To install via bower simply run
+
+`bower install angular-flippy --save`
+
+And then include it in your app.
+
+```javascript
+angular
+.module('myApp', [
+  // other modules here
+  'angular-flippy'
+])
+```
